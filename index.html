@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <title>Cuisine | Home</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <h4 data-aos="fade-down">Cuisine</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+
+      <ul data-aos="fade-down" class="header__menu">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+
+        <li>
+          <a href="#food">Food</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#about-us">About Us</a>
+        </li>
+      </ul>
+
+      <ul data-aos="fade-down" class="header__menu-mobile">
+        <li>
+          <img src="images/menu.svg" alt="menu">
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img data-aos="fade-up" src="images/cuisine-1.png" alt="">
+      <div class="hero-image__overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div data-aos="fade-left" class="hero-content-info">
+        <h1>Feel the taste of exquisite cuisine</h1>
+        <p>Feel the taste of the most popular exquisite cuisine from any where and any time.</p>
+
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+
+          <button class="hero-content__play-button">
+            <img src="images/order.svg" alt="play">
+            How to order
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-content__testimonial" data-aos="fade-up">
+        <div class="hero-content__customer flex-center">
+          <h4>24 <span>4k+</span></h4>
+          <p>Happy customers</p>
+        </div>
+
+        <div class="hero-content__review">
+          <img src="ig" alt="">
+          <p>"Best delivery service around town"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us" id="about-us">
+    <div class="about-us__image">
+      <div class="about-us__image-cuisine3">
+        <img data-aos="fade-right" src="images/cusine-3.png" alt="cusine">
+      </div>
+
+      <button class="about-us__button">Learn More</button>
+
+      <div class="about-us__image-cuisine2">
+        <img data-aos="fade-right" src="images/cusine-4.png" alt="cusine">
+      </div>
+
+    </div>
+
+    <div class="about-us__content" data-aos="fade-left">
+      <p class="cusine__subtitle">About Us</p>
+      <h3 class="cusine__title">Out mission is to bring true cuisine experience at a most affordable price.</h3>
+      <p class="cusine__description"> We will continue to provide the experience of the most affordable cuisine at your door step, Breaking the stereotype of cuisine being expensive.</p>
+    </div>
+  </section>
+
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title" data-aos="fade-down">
+      Popular Food
+    </h2>
+
+    <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
+      <button class="popular-foods__filter-btn active">All</button>
+      <button class="popular-foods__filter-btn">Indian</button>
+      <button class="popular-foods__filter-btn">Chinese</button>
+      <button class="popular-foods__filter-btn">French</button>
+      <button class="popular-foods__filter-btn">American</button>
+      <button class="popular-foods__filter-btn">Others</button>
+    </div>
+
+    <div class="popular-foods__catalogue" data-aos="fade-up">
+      <article class="popular-foods__card" >
+        <img class="popular-food__card-image" src="images/cuisine-5.png" alt="cuisine-5">
+        <h4 class="popular-foods__card-title">Caesar salad</h4>
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+              <img src="images/star.png" alt="star">
+              <p>4.8</p>
+          </div>
+          <p class="popular-foods__card-price">$18.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card active-card">
+        <img class="popular-food__card-image" src="images/cuisine-6.png" alt="cuisine-5">
+        <h4 class="popular-foods__card-title">Pasta</h4>
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+              <img src="images/star.png" alt="star">
+              <p>4.9</p>
+          </div>
+          <p class="popular-foods__card-price">$12.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card">
+        <img class="popular-food__card-image" src="images/cuisine-7.png" alt="cuisine-5">
+        <h4 class="popular-foods__card-title">Fish & Chips</h4>
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+              <img src="images/star.png" alt="star">
+              <p>4.6</p>
+          </div>
+          <p class="popular-foods__card-price">$20.00</p>
+        </div>
+      </article>
+    </div>
+
+    <button class="popular-foods__button">Explore Food</button>
+  </section>
+
+  <section class="trending" id="food">
+    <div class="trending_outer_container topside">
+    <div class="trending_content">
+      <p>What's trending?</p>
+      <h2>Indian</h2>
+      <p>Feel the cuisine made by the authentic creators of the dish</p>
+      <div class="types">
+        <div class="left_types">
+          <li>Biryani</li>
+          <li>Pulao</li>
+          <li>Butter Chicken</li>
+        </div>
+        <div class="right_types">
+          <li>Butter Naan</li>
+          <li>Chicken 65</li>
+          <li>Matar Paneer</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="outerBox">
+    <div class="trending_content toprightside">
+      <img data-aos="fade-left" src="images/biryani.png" alt="biryani">
+    </div>
+  </div>
+
+    <div class="trending_content bottomside">
+      <img data-aos="fade-right"  src="images/tea.png" alt="tea">
+    </div>
+    <div  class="trending_outer_container">
+      <div class="trending_content">
+        <p>What's trending?</p>
+        <h2>Indian Drinks</h2>
+        <p>Feel the exotic drinks made by the authentic creators</p>
+        <div class="types">
+          <div class="left_types">
+            <li>Masala Chai</li>
+            <li>Coffee</li>
+            <li>Lassi</li>
+          </div>
+          <div class="right_types">
+            <li>Mango juice</li>
+            <li>Nimbu paani</li>
+            <li>Cocktail</li>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <section class="subscription flex-center" id="services">
+
+    <h2 data-aos="flip-down">Get Offers straight <br> to your inbox</h2>
+    <p data-aos="fade-up">sign up for the cuisine</p>
+
+    <div class="subscription__form" data-aos="fade-up">
+      <input type="text" placeholder="enter your email address">
+      <button>Submit</button>
+    </div>
+  </section>
+
+  <footer class="footer flex-between">
+    <h3 class="footer__logo">Cuisine</h3>
+
+    <ul class="footer__nav">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#food">Food</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about-us">About Us</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="images/fb.svg" alt="facebook">
+      </li>
+
+      <li class="flex-center">
+        <img src="images/insta.svg" alt="insta">
+      </li>
+    
+      <li class="flex-center">
+        <img src="images/twitter-round-svgrepo-com.svg" alt="twitter">
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
